@@ -1,0 +1,47 @@
+.item {
+    width: 250px;
+}
+
+.card_title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.card_title h5 {
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 0;
+}
+.card_title img {
+    width: 30px;
+    height: 10px;
+}
+.item_header img {
+    margin-left:calc(50%);
+}
+.card_title img:hover {
+    cursor: pointer;
+}
+.card_info {
+    padding: 10px 30px; 
+    background-color:  hsl(235, 46%, 20%);
+    border-radius:20px ;
+    position: relative;
+    margin-top: 50px;
+}
+.card_info .current {
+    color: white;
+    font-size: 3rem;
+    margin: 10px 0px;
+}
+.card_info .span {
+    color: rgb(189, 189, 189);
+}
+.item_header {
+    border-radius :10px;
+    height: 70px;
+    width: inherit;
+    position: absolute;
+}

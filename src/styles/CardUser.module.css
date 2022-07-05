@@ -1,0 +1,42 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 20px;
+    height: auto;
+}
+
+.card_header {
+    background-color:  hsl(246, 80%, 60%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card_header img {
+    width: 100px;
+}
+.card_header p {
+    color: gray;
+}
+.card_header h4{
+    font-weight: 300;
+    color: white;
+    font-size: 2rem;
+    width: 100px;
+    margin: 0;
+}
+.card_filter {
+    margin-top: 0px;
+    color: white;
+    width: 50px;
+    margin: 0 30px;
+    text-transform: capitalize;
+}
+.card_filter p {
+    transition: all 0.2s ease-in;
+}
+.card_filter p:hover {
+    cursor: pointer;
+    color: gray;
+}
